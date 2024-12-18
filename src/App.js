@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import TodoList from './ToDoList';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <h1>
         RalphsCode - To-Do app
       </h1>
+      <TodoList />
     </div>
   );
 }
