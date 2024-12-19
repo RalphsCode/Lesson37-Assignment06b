@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 
+// displays each todo, with a remove button
 const Todo = ( ({task, remove}) => {
     return(
-                <li>
-                    <button onClick={ () => remove(task.id)}>X</button>&nbsp;
-                    {task.item} 
-                </li>
+        <div>
+            <button onClick={ () => remove(task.id)}>X</button>&nbsp;
+            {task.item} 
+        </div>
     )
 } )  // END Todo()
 
